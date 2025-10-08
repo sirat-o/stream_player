@@ -1,1 +1,29 @@
-
+[
+  {
+    "name": "Fancode",
+    "url": "https://abmvm23aaaaaaaamjmmec4lqatq7x.ottb.live.cf.ww.aiv-cdn.net/sin-nitro/live/clients/dash-sd/enc/v8g0dlo4z8/out/v1/946019f85dc64ae99ff9ce64a9727a62/cenc-sd.mpd",
+    "keyId": "5689304538fa9f3bb3da99c939a2ad4f",
+    "key": "6907c88ed8ebdd35a2fa80b9684715e1",
+    "verified": true,
+    "badge": "Cricket Live",
+    "badgeColor": "badge-red"
+  },
+  {
+    "name": "Tapmad Live",
+    "url": "https://premierleagpl23.akamaized.net/hls/live/2107108/TapSerie-1@2025/level_1.m3u8",
+    "keyId": "",
+    "key": "",
+    "verified": true,
+    "badge": "Football",
+    "badgeColor": "badge-yellow"
+  },
+  {
+    "name": "Shoq Live",
+    "url": "https://live.shoq.com.pk/live/eds/ICC_Women_World_Cup_2025/DASH/ICC_Women_World_Cup_2025.mpd",
+    "keyId": "a6dfc4f17d70d8d07639659193f03b25",
+    "key": "893eacfabe386144b81733d622a7ad17",
+    "verified": true,
+    "badge": "Women's World Cup",
+    "badgeColor": "badge-green"
+  }
+]
