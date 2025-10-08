@@ -189,12 +189,20 @@
         verified: true
       },
       {
-        name: "HLS Test Stream",
-        url: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+        name: "Tapmad Live",
+        url: "https://premierleagpl23.akamaized.net/hls/live/2107108/TapSerie-1@2025/level_1.m3u8",
         keyId: "",
         key: "",
         verified: true
+      },
+      {
+        name: "Shoq Live",
+        url: "https://live.shoq.com.pk/live/eds/ICC_Women_World_Cup_2025/DASH/ICC_Women_World_Cup_2025.mpd",
+        keyId: "a6dfc4f17d70d8d07639659193f03b25",
+        key: "893eacfabe386144b81733d622a7ad17",
+        verified: true
       }
+
     ];
     
     const saveModal = document.getElementById('saveModal');
@@ -301,7 +309,6 @@
               ${stream.name}
               ${stream.verified ? '<i class="fas fa-check-circle text-sky-400 text-xs" title="Verified Stream"></i>' : ''}
             </div>
-            <div class="text-sm text-slate-400 truncate">${stream.url}</div>
           </div>
           <div class="flex items-center gap-2 ml-4">
             <button class="w-8 h-8 flex items-center justify-center rounded-full bg-slate-700 text-slate-300 hover:bg-green-500 hover:text-white transition-all duration-200" onclick="playSavedStream('${stream.name}')" title="Play">
