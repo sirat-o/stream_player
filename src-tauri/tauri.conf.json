@@ -1,8 +1,8 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "media-stream-player",
-  "version": "1.0.1",
-  "identifier": "com.mirazmac.player",
+  "productName": "stream-player",
+  "version": "1.0.0",
+  "identifier": "com.mas.player",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -20,7 +20,7 @@
         "shadow": true,
         "center": true,
         "visible": false,
-        "title": "Media Stream Player",
+        "title": "Stream Player",
         "width": 800,
         "height": 580
       }
