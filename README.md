@@ -1,3 +1,9 @@
+## Credits
+
+This project is a modified and improved version of MirazMac's **Media-Stream-Player** project.
+
+Original project: https://github.com/MirazMac/Media-Stream-Player
+
 # Stream Player
 
 `Stream Player` is a modern Windows desktop stream player focused on IPTV, HLS, DASH, advanced stream headers, playlist handling, and DRM-ready playback configuration.
